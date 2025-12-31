@@ -1,0 +1,86 @@
+/* ===== Global ===== */
+body {
+    background: #f5f6fa;
+    font-family: "Segoe UI", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* ===== Card ===== */
+.card,
+.card-custom {
+    border: none;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    transition: .2s;
+}
+.card-custom:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+}
+
+/* ===== Card Header ===== */
+.card-header-custom {
+    background: #0d6efd;
+    color: #fff;
+    padding: 18px 25px;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 16px 16px 0 0;
+}
+
+/* ===== Table ===== */
+.table thead,
+.table-custom thead {
+    background: #0d6efd;
+    color: #fff;
+}
+.table-custom tbody tr:hover {
+    background: #eef4ff;
+}
+
+/* ===== Button ===== */
+.btn-primary {
+    background: #4b7bec;
+    border-color: #3867d6;
+    font-weight: 500;
+}
+.btn-primary:hover {
+    background: #3867d6;
+}
+.btn-success,
+.btn-primary {
+    border-radius: 10px;
+}
+.btn-rounded {
+    border-radius: 30px;
+}
+
+/* ===== Form ===== */
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* ===== Page Title ===== */
+.page-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #334;
+    margin-bottom: 25px;
+}
